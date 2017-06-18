@@ -1,5 +1,7 @@
 import subprocess
 import os
+os.makedirs('Result')
+
 from os import listdir
 
 list_files = (listdir ('./Sourdce/'))
